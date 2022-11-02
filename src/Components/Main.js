@@ -10,16 +10,16 @@ function Main() {
 
   const handle = () =>{
     setDash(<div className="p">
-      <p> tum shayad mujhe do din se janti ho but me tumhe kai salo se janta hun...tum bhot time se mere dil❤️ ki gallery me ho</p>
+//       <p> tum shayad mujhe do din se janti ho but me tumhe kai salo se janta hun...tum bhot time se mere dil❤️ ki gallery me ho</p>
       <img src={z1} alt='z1' />
-      <p>har mahine shopping bhi karwauga maanjao plz</p>
+//       <p>har mahine shopping bhi karwauga maanjao plz</p>
       <img src={z2} alt='z2' />
     </div>);
   }
 
   const zubi = () => {
     setData(<div className="p">
-      <p>The most beautiful person in the galaxy🌍  not only from the face but from the heart❤️</p>
+      <p>The most beautiful person in the galaxy🌍  not only from the face but also from the heart❤️</p>
       <img className="z3" src={z3} alt='z3'/>
       {alert("HEY ZUBI💃 GOOGLE IS ALSO WAITING FOR YOU")}
     </div>
