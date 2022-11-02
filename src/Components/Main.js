@@ -6,7 +6,7 @@ import z2 from '../Images/z2.jpeg';
 function Main() {
   const [data, setData] = useState("");
   const [dash, setDash] = useState("");
-  const [will, setWill] = useState("");
+//   const [will, setWill] = useState("");
 
   const handle = () =>{
     setDash(<div className="p">
@@ -26,16 +26,16 @@ function Main() {
     );
   }
 
-  const love = () =>{
-    setWill(
-    <div>
-        <p>will you marry❤️ me?</p>
-        <p>(Take your time and then answer me plz)</p>
-        <p>I know this is very awkward</p>
-        <p>(Agar tumhara answer nhi hai...to mujhko msg kardo & block kardo fir me tumhe kabhi msg ya call ya contact nhi karuga...past samajh kar aage badh jauga)</p>
-    </div>
-    )
-  }
+//   const love = () =>{
+//     setWill(
+//     <div>
+//         <p>will you marry❤️ me?</p>
+//         <p>(Take your time and then answer me plz)</p>
+//         <p>I know this is very awkward</p>
+//         <p>(Agar tumhara answer nhi hai...to mujhko msg kardo & block kardo fir me tumhe kabhi msg ya call ya contact nhi karuga...past samajh kar aage badh jauga)</p>
+//     </div>
+//     )
+//   }
     return (
       <div className="main">
         <div>
@@ -49,10 +49,10 @@ function Main() {
           <button onClick={handle}>Click here</button>
         </div>
         <div>{dash}</div>
-        <div>
-          <button onClick={love}>Click here</button>
-          <h2>{will}</h2>
-        </div>
+//         <div>
+//           <button onClick={love}>Click here</button>
+//           <h2>{will}</h2>
+//         </div>
       </div>
     );
 };
